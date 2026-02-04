@@ -39,8 +39,26 @@
       field where users can enter data.
     </p>
 
+    <table border="1" cellpadding="8" cellspacing="0">
+      <tr>
+        <th>Day</th>
+        <th>Duty</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Team Meeting</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Development Work</td>
+      </tr>
+    </table>
+
+    <img src="html-drawing.jpeg" width="600" alt="HTML drawing" />
+
     <form>
       <h2>My Profile</h2>
+
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" /><br />
 
@@ -51,7 +69,22 @@
       <input type="text" id="message" name="message" /><br />
 
       <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" />
+      <input type="tel" id="phone" name="phone" /><br />
+
+      <label for="feedback">Feedback:</label><br />
+      <textarea
+        id="feedback"
+        name="feedback"
+        rows="4"
+        cols="40"
+        placeholder="Type your feedback here..."
+      ></textarea
+      ><br />
+
+      <label for="date">Select Date:</label>
+      <input type="date" id="date" name="date" /><br /><br />
+
+      <input type="submit" value="Submit" />
     </form>
   </body>
 </html>
